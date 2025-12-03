@@ -1,6 +1,9 @@
 # Portfolio_2025
 Collecting recent works for educational purposes
 
+# Disclaimer: 
+#`This repository includes only a small subset of example code and teaching materials. Due to project size and confidentiality, it does not contain the complete versions of my coursework, research, or applied projects.`#
+
 
 
 # 📁 1. AIBarbeershop
