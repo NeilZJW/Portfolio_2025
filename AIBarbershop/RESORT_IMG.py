@@ -5,7 +5,7 @@
 import cv2
 import os
 
-input_dir = "D:\\张峻玮\\4\\Summy\\7.3\\datasets"
+input_dir = "D:\\ZJW\\4\\Summy\\7.3\\datasets"
 count = 0
 for img in os.listdir(input_dir):
     old_dir = os.path.join(input_dir, img)
@@ -15,6 +15,7 @@ for img in os.listdir(input_dir):
         new_dir = os.path.join(input_dir, "img" + str(count) + filetype)
         os.rename(old_dir, new_dir)
     count += 1
+
 
 
 
