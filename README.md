@@ -25,7 +25,7 @@ The contents span natural language processing, speech synthesis, statistical dat
 The code here is a mixture of learning demos, ongoing experiments, and partial implementations, intended mainly for documenting my progress.
 
 ## 📌 1. BERT — Résumé Semantic Classification
-A small project exploring the use of BERT for semantic classification of job applicants' résumés.
+A small project exploring the use of BERT for the semantic classification of job applicants' résumés.
 - Fine-tuned BERT on custom categories
 - Focused on extracting skill-based and experience-based patterns
 - Demonstrates basic NLP pipeline building
@@ -71,11 +71,34 @@ This folder has two parts:
 ### (1) Simple Fine-Tuning Examples
 - Focus on Qwen and DeepSeek models
 - Basic demonstrations only (not full training pipelines)
-- Actual project “Mind Companion” is under development and will be released later
+- The actual project “Mind Companion” is under development and will be released later
 
 ### (2) Model Evaluation
 - Using the OpenCompass framework
 - Partial evaluation logs and scripts
 - Experiments comparing different mainstream LLMs
 
+# 📁 3. Teaching — Example Materials for Undergraduate Courses
+This folder contains teaching examples and course materials that I prepared for international undergraduate students in fully English-medium classes.
+Students came from diverse regions, including Africa, Russia, India, China, etc.
+
+These materials aim to make complex AI concepts accessible and interactive for students from different academic backgrounds.
+
+## 🎨 Computational Creativity (CC)
+This section contains examples and teaching modules related to generative AI, creative algorithms, and the intersection between AI and art.
+The content introduces fundamental AI concepts and gradually transitions into hands-on experiments using PyTorch, which is used as the main teaching framework.
+
+Topics Covered Image Generation & Creativity Techniques, ncludes practical demonstrations of:
+- DeepDream
+- Neural Style Transfer (NST)
+- Autoencoder / Variational Autoencoder (AE / VAE)
+- Evolutionary / Genetic Algorithms in creative systems
+- Generative Adversarial Networks (GAN)
+- GAN variants (DCGAN, CycleGAN, cGAN, etc.)
+
+## 🗣️ Natural Language Processing (NLP)
+This section provides a structured introduction to classical and modern NLP techniques, starting from the fundamentals and progressing towards advanced neural architectures.
+### ✔ Foundational Concepts: Tokenization, Bag-of-words & basic text statistics, N-gram language models, etc.
+### ✔ Classical Neural Approaches: NNLM (Neural Network Language Model), Word embeddings (word2vec concepts), RNN-based models, Vanilla RNN, GRU, LSTM, etc.
+### ✔ Modern Models: Introduction to Transformer architecture, Attention mechanism, etc.
 
